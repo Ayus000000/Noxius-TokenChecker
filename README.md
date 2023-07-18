@@ -1,17 +1,40 @@
 # Noxius-TokenChecker
-`Simple Discord Token  Checker Developed by rotomicora#0001`
+
+`Noxius Token Checker v2.0 -> LAST UPDATE -> 18/07/2023`
 
 
-- [x] Features
+### Features
 
-  - [x] Proxy Support
+- [x] Noxius Token Checker Features
+
+  - [x] Proxy Support (Fixed in the last update!)
 
   - [x] Fast Token Checker
 
-  - [ ] Check Nitro (Next Update...)
+  - [x] Check Nitro (Added in the last update!)
+     
+  - [x] Get username (Added in the last update!)
+     
+  - [x] Check Billing and if is Locked (Added in the last update!) 
 
 
-![image](https://github.com/rotomicora/Noxius-TokenChecker/assets/48841069/df29ff2c-60aa-444b-8b31-38c99f408e15)
+### Changelog 
+
+> **Version 2.0**
+
+- Proxy support fixed
+
+- More power added
+
+- Nitro Check added
+
+- Now, you can get the username
+
+- Check Billing added
+
+
+![image](https://github.com/rotomicora/Noxius-TokenChecker/assets/48841069/4d23e9a8-ba9a-4d50-b6c6-1cb84f38c8e3)
+
 
 [Project Noxius](https://t.me/projectnoxius)
 
