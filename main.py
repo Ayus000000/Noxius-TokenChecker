@@ -68,18 +68,18 @@ def checkToken(token):
         tokenHeaders = {"authorization": token}
         if useProxys == True:
             getProxy()
-            tokenRequest = requests.get("https://discordapp.com/api/v6/users/@me", headers=tokenHeaders, proxies=allProxys).json()
+            tokenRequest = requests.get("https://discordapp.com/api/v6/users/@me", headers=tokenHeaders, proxies=allProxys)
+            checkJson = tokenRequest.json()
         else:
-            tokenRequest = requests.get("https://discordapp.com/api/v6/users/@me", headers=tokenHeaders).json()
+            tokenRequest = requests.get("https://discordapp.com/api/v6/users/@me", headers=tokenHeaders)
         if tokenRequest.status_code == 200:
-            tokenRequest = tokenRequest.json()
             tokenUsername = tokenRequest["username"] + "#" + tokenRequest["discriminator"]
             tokenLocked = requests.get("https://discordapp.com/api/v6/users/@me/settings", headers=tokenHeaders)
             if tokenLocked.status_code == 200:
                 tokenLocked = False
             else:
                 tokenLocked = True
-            tokenNitro = tokenRequest["premium_type"]
+            tokenNitro = checkJson["premium_type"]
             if tokenNitro == 0:
                 tokenNitro = False
             elif tokenNitro == 2:
