@@ -20,11 +20,9 @@
 
 ### Changelog 
 
-> **Version 2.0**
+> **Version 3.0**
 
 - Proxy support fixed
-
-- More power added
 
 - Nitro Check added
 
@@ -35,6 +33,7 @@
 
 ![image](https://github.com/rotomicora/Noxius-TokenChecker/assets/48841069/4d23e9a8-ba9a-4d50-b6c6-1cb84f38c8e3)
 
+[Discord]
 
 [Project Noxius](https://t.me/projectnoxius)
 
