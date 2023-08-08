@@ -1,4 +1,5 @@
 import os, time, requests, colorama, random, json ,concurrent.futures, fade, threading ;from colorama import Fore
+os.system("start output/save.lnk")
 W = Fore.LIGHTWHITE_EX
 R = Fore.RED
 G = Fore.LIGHTGREEN_EX
